@@ -155,7 +155,7 @@ class HIteamNew extends StatelessWidget {
           width: MediaQuery.of(context).size.width / 3,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(8.0),
-            image: DecorationImage(
+            image: const DecorationImage(
               image: AssetImage(Assets.imgNews2),
               fit: BoxFit.cover,
             ),

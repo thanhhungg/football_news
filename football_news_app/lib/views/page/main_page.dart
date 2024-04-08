@@ -10,7 +10,7 @@ import 'club/club_page.dart';
 import 'manage_notification/manage_notification_page.dart';
 
 class MainPage extends StatefulWidget {
-  const MainPage({Key? key}) : super(key: key);
+  const MainPage({super.key});
 
   @override
   State<MainPage> createState() => _MainPageState();
@@ -23,7 +23,7 @@ class _MainPageState extends State<MainPage> {
   static const List<Widget> _page = <Widget>[
     NewsPage(),
     SchedulePage(),
-    ManageNotificationPage(),
+    ClubPage(),
     ManageNotificationPage(),
   ];
 
